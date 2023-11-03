@@ -1,0 +1,34 @@
+
+class Intrebare{
+    String Intrebare;
+    vector<String> raspunsuri = [...];
+    String raspusnsCorect;
+}
+
+class Intrebari(){
+    vector<Intrebare>  intrebari;
+
+    Intrebare(){
+       intrebari = create intrebari from file
+    }
+
+    void genrateInrebari(){
+       pick 5 random number
+       returnez Intrebare(numere)
+    }
+}
+
+class Game(){
+    class Intrebari = Intrebari();
+    vector<Intrebare>  intrebari Intrebari.genrateInrebari
+
+    String userId;
+
+    void verifyintrebari(index , raspuns){
+       if(intrebari[index].raspunsCorect = raspuns)
+         return ok;
+       else return gresit 
+    }
+
+
+}
